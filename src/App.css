@@ -1,0 +1,110 @@
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #f0e6d6;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.app-header {
+  text-align: center;
+  padding: 20px;
+  background-color: #6b5b3d;
+  color: #fff;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.app-header h1 {
+  margin: 0;
+  font-size: 28px;
+  font-family: 'Georgia', serif;
+}
+
+.app-header p {
+  margin: 10px 0 0;
+  font-size: 16px;
+  opacity: 0.9;
+}
+
+.upload-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.upload-area {
+  width: 500px;
+  height: 300px;
+  border: 3px dashed #8a7e63;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.7);
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.upload-area:hover {
+  border-color: #6b5b3d;
+  background-color: rgba(255, 255, 255, 0.9);
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.file-input {
+  display: none;
+}
+
+.upload-button {
+  background-color: #8a7e63;
+  color: white;
+  font-weight: bold;
+  padding: 15px 30px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s;
+  font-size: 18px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.upload-button:hover {
+  background-color: #6b5b3d;
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+.upload-hint {
+  color: #6b5b3d;
+  font-size: 16px;
+}
+
+.back-button {
+  align-self: center;
+  background-color: #6b5b3d;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px 0;
+  font-weight: bold;
+  transition: all 0.2s;
+}
+
+.back-button:hover {
+  background-color: #55472f;
+  transform: translateY(-2px);
+}
+
+.app-footer {
+  padding: 15px;
+  text-align: center;
+  background-color: #6b5b3d;
+  color: rgba(255, 255, 255, 0.8);
+  margin-top: auto;
+}
